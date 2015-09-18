@@ -3,11 +3,11 @@
 from setuptools import setup
 setup(
     name="xml-compare",
-    version='0.1',
+    version='0.1.1',
     description='Compare two xml files for equality or compatibility',
     scripts=['xml_compare.py'],
     install_requires=[
-        'lxml>=3.3.1',
+        'lxml>=2.3.2',
     ],
     zip_safe=False,
     author='Nikita Kovalev',

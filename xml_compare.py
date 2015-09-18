@@ -12,7 +12,7 @@ import itertools
 
 from lxml import etree
 
-__version__ = '0.1'
+__version__ = '0.1.1'
 
 
 def _describe_element(elem):
